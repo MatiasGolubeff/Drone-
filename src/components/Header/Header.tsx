@@ -22,7 +22,7 @@ export function Header() {
     <Container className='header-fixed'>
       <Router>
         <HashLink smooth to='#home' className='logo'>
-          <span>Ignacio Nicoletti</span>
+          <span>Matias Golubeff</span>
         </HashLink>
 
         <input
@@ -41,8 +41,8 @@ export function Header() {
           <NavHashLink smooth to='#sobre' onClick={closeMenu}>
             Sobre mi
           </NavHashLink>
-          <NavHashLink smooth to='#portfolio' onClick={closeMenu}>
-            Portfolio
+          <NavHashLink to='Producciones' onClick={closeMenu}>
+            Producciones
           </NavHashLink>
           <NavHashLink smooth to='#contacto' onClick={closeMenu}>
             Contacto

@@ -16,8 +16,8 @@ export function Contact() {
       <div className='contacts'>
         <div>
           <img src={WhatsApp} alt='mensaje' />
-          <a href='https://api.whatsapp.com/send?phone=%2B5492213195893&text=' target="_blank" rel="noreferrer">
-            (+54) 221 319-5893
+          <a href='https://api.whatsapp.com/send?phone=%2B5492213030816&text=' target="_blank" rel="noreferrer">
+            (+54) 221 303-0816
           </a>
         </div>
       </div>

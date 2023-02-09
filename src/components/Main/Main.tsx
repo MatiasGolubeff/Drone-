@@ -1,28 +1,31 @@
 import React from 'react';
 import Particles from "react-tsparticles"
-import {Container} from "./styles"
-import {Hero} from "../Hero/Hero"
+import { Container } from "./styles"
+import { Hero } from "../Hero/Hero"
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Portfolio } from "../Portfolio/Portfolio";
 
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import mysqlIcon from "../../assets/mysql-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vscodeIcon from "../../assets/vscode-icon.svg";
 
 
-export function Main(){
-    return(
-  
-      <Container>
-        <Particles
+
+
+import { AboutDrone } from '../AboutDrone/AboutDrone';
+import droneicon_green from "../../assets/droneGreen.svg";
+import droneicon_yellow from "../../assets/droneAmarillo.svg";
+import droneicon_Black from "../../assets/droneNegro.svg";
+import droneicon_Red from "../../assets/droneRed.svg";
+import droneicon_red2 from "../../assets/dronerojo.svg";
+import droneicon_lightBlue from "../../assets/dronelightblue.svg";
+import mascara from "../../assets/mascarablanca.svg";
+import helice from "../../assets/helice.svg";
+
+
+export function Main() {
+  return (
+
+    <Container>
+      <Particles
         id="tsparticles"
         options={{
           "fullScreen": {
@@ -152,56 +155,46 @@ export function Main(){
               },
               "image": [
                 {
-                  "src": boostrapIcon,
+                  "src": droneicon_green,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": cssIcon,
+                  "src": droneicon_yellow,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": htmlIcon,
+                  "src": droneicon_Black,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": jsIcon,
+                  "src": droneicon_Red,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": mysqlIcon,
+                  "src": droneicon_lightBlue,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": nodeIcon,
+                  "src": mascara,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": reactIcon,
+                  "src": droneicon_red2,
                   "width": 20,
                   "height": 20
                 },
                 {
-                  "src": sassIcon,
+                  "src": helice,
                   "width": 20,
                   "height": 20
                 },
-                {
-                  "src": typescriptIcon,
-                  "width": 20,
-                  "height": 20
-                },
-                {
-                  "src": vscodeIcon,
-                  "width": 20,
-                  "height": 20
-                },
-            
+
               ],
               "polygon": {
                 "sides": 5
@@ -243,10 +236,11 @@ export function Main(){
           }
         }}
       />
-        <Hero></Hero>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
-      </Container>
-    );
-  }
+      <Hero></Hero>
+      <About></About>
+      <AboutDrone></AboutDrone>
+      {/* <Portfolio></Portfolio> */}
+      <Contact></Contact>
+    </Container>
+  );
+}

@@ -12,13 +12,13 @@ export function Hero() {
           <p>Hola 👋, soy</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Ignacio Nicoletti</h1>
+          <h1>Matias Golubeff</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Desarrollador Web Full Stack</h3>
+          <h3>Droner</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">Formandome profesionalmente día a día y creando proyectos para la comunidad.</p>
+          <p className="small-resume">Perfeccionandome día a día y dando lo mejor de mi en cada produccion.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
