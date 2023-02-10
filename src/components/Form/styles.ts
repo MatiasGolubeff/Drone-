@@ -17,12 +17,12 @@ justify-content:center;
       width: 100%;
       height: 40px;
       border-radius: 5px;
-      color:  var(--red);
+      color:  var(--orange);
       &:focus {
-        color: var(--red);
-        border: 1px solid (--red);
+        color: var(--orange);
+        border: 1px solid (--orange);
         &:focus {
-          border: 2px solid var(--red);
+          border: 2px solid var(--orange);
         }
       }
     }
@@ -35,10 +35,10 @@ justify-content:center;
       padding:1%;
       outline: none;
       border-radius: 5px;
-      color: var(--red);
+      color: var(--orange);
       border: 1px solid black;
       &:focus {
-        border: 2px solid var(--red);
+        border: 2px solid var(--orange);
       }
     }
     label {
@@ -48,7 +48,7 @@ justify-content:center;
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      color: var(--red);
+      color: var(--orange);
       border: none;
     }
     button{
@@ -57,12 +57,12 @@ justify-content:center;
       justify-content: center;
       gap: 2rem;
       margin-top: 2rem;
-      background-color: var(--red);
+      background-color: var(--orange);
       border-radius: 1.4rem;
       padding: 1rem;
       transition: background-color 0.25s;
       &:hover{
-        background-color: var(--red);
+        background-color: var(--orange);
         a{
           color: #FFF;
         }

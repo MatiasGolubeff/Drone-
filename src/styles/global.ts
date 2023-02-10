@@ -9,8 +9,9 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #0e6f21;
     --blue: #016fb9;
-    --red:#d62828;
-    --blueOpacity:#003049;
+    --red: #d62828;
+    --blueOpacity: #003049;
+    --orange: #fe7f2d;
     scroll-padding-top: 10rem;
 
     &.light{
@@ -20,7 +21,6 @@ export const GlobalStyle = createGlobalStyle`
         background-color: #f5f5f5;
         color: var(--black);
       }
-
       .logo{
         color: var(--black);
       }
@@ -83,7 +83,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
+    background-color: var(--blueOpacity);
     color: #FFFF;
   }
 
@@ -99,7 +99,7 @@ export const GlobalStyle = createGlobalStyle`
   button, .button{
     border: none;
     cursor: pointer;
-    background-color: var(--red);
+    background-color: var(--orange);
     color: #FFFF;
     border-radius: 2rem;
     font-weight: 500;
@@ -119,7 +119,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 3rem;
     color: #FFFF;
     &::first-letter{
-      color: var(--red);
+      color: var(--orange);
     }
   }
   

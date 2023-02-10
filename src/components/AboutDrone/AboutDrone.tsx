@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
 import comboDrone from '../../assets/combodrone.jpg';
+import frontalDrone from '../../assets/dronFrontal.jpg';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 export function AboutDrone() {
@@ -57,7 +58,8 @@ export function AboutDrone() {
       </div>
       <div className='drone-image'>
         <ScrollAnimation animateIn='fadeInRight' delay={0.6 * 1000}>
-          <img src={comboDrone} alt='profileImage' />
+          <img src={comboDrone} alt='comboPhoto' />
+          <img src={frontalDrone} alt='drone frontal' />
         </ScrollAnimation>
       </div>
     </Container>

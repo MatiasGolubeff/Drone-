@@ -9,7 +9,7 @@ export const Container = styled.header`
   
   background-color: #21212150;
   
-  backdrop-filter: blur(6px);
+ backdrop-filter: blur(6px);
 
   position: fixed;
   top: 0;
@@ -101,7 +101,7 @@ export const Container = styled.header`
     text-indent: -9999px;
     width: 55px;
     height: 30px;
-    background: var(--red);
+    background: var(--graylight);
     display: block;
     justify-content: center;
     align-items: center;
@@ -169,10 +169,10 @@ export const Container = styled.header`
       top: 0;
       left: 0;
       transition: opacity 0.25s;
-      background-color: var(--red);
+      background-color: var(--orange);
 
       a.button{
-        background-color: var(--pink);
+        background-color: var(--orange);
       }
 
       &.active{
