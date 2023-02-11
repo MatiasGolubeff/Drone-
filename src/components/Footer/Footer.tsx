@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from './styles';
-import reactIcon from '../../assets/react-icon.svg';
 import linkedinIcon from '../../assets/linkedin.png';
 import instagramIcon from '../../assets/instagram.png';
 
@@ -8,13 +7,13 @@ export function Footer() {
   return (
     <Container className='footer'>
       <a href='/' className='logo'>
-        <span>G</span>
-        <span>olubeff</span>
+        <span>D</span>
+        <span>roner</span>
       </a>
       <div>
         <p>
           No dudes en consultar{' '}
-          {/* <img src={reactIcon} alt='React' /> */}
+
         </p>
       </div>
 

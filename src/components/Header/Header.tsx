@@ -9,10 +9,10 @@ import Curriculum from '../../assets/CV_IgnacioNicoletti.pdf';
 export function Header() {
   const [isactive, setActive] = useState(false);
 
-  function toggleTheme() {
-    let html = document.getElementsByTagName('html')[0];
-    html.classList.toggle('light');
-  }
+  // function toggleTheme() {
+  //   let html = document.getElementsByTagName('html')[0];
+  //   html.classList.toggle('light');
+  // }
 
   function closeMenu() {
     setActive(false);
