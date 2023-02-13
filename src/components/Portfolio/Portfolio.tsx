@@ -8,7 +8,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 export function Portfolio() {
   return (
     <Container id="portfolio">
-      <h2>Mis Trabajos</h2>
+      <h2>Mis Producciones</h2>
 
       <div className="projects">
 

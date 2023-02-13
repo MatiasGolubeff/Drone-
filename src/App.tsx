@@ -6,28 +6,36 @@ import { GlobalStyle } from './styles/global';
 import 'react-toastify/dist/ReactToastify.css';
 import { Main } from './components/Main/Main';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { MainProduction } from './components/Main-producciones/MainProduction';
+
 function App() {
   return (
+    <BrowserRouter>
 
-    <div>
+      <GlobalStyle />
+      <Header />
 
-      <GlobalStyle />,
-      <Header />,
-      <Main />,
-      <Footer />
-
-      {/* <Routes>
-
-        <Route path='/' element={[
-
-
-        ]} />
-      </Routes> */}
+      <Routes>
 
 
 
+        <Route path="/" element={
+          <>
+            <Main />
+            <Footer />
+          </>
 
-    </div>
+        } />
+
+        <Route path="/producciones" element={
+          <>
+            <MainProduction />
+          </>
+        } />
+      </Routes>
+
+    </BrowserRouter>
+
   );
 }
 
