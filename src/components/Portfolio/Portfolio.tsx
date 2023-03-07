@@ -54,9 +54,9 @@ export function Portfolio() {
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
-            <h3>Corriendo caballos con mi drone DJI FPV 🐎</h3>
+            <h3>DJI FPV ADVENTURE #02🐎</h3>
 
-            <iframe width="350" height="200" src="https://www.youtube.com/embed/0IzXiv-aM8c" title="Corriendo caballos con mi drone DJI FPV 🐎" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <iframe width="350" height="200" src="https://www.youtube.com/embed/-k5TN2fQh2c" title="DJI FPV ADVENTURE #02" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           </div>
         </ScrollAnimation>
 
