@@ -15,27 +15,15 @@ function App() {
       <GlobalStyle />
       <Header />
 
+
       <Routes>
-
-
-
-        <Route path="/" element={
-          <>
-            <Main />
-            <Footer />
-          </>
-
-        } />
-
-        <Route path="/producciones" element={
-          <>
-            <MainProduction />
-          </>
-        } />
+        <Route path="/" element={<Main />} />
+        <Route path="/producciones" element={<MainProduction />} />
       </Routes>
 
-    </BrowserRouter>
+      <Footer />
 
+    </BrowserRouter>
   );
 }
 

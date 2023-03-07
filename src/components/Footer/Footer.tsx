@@ -12,8 +12,8 @@ export function Footer() {
       </a>
       <div>
         <p>
-          No dudes en consultar{' '}
-
+          {/* No dudes en consultar{' '} */}
+          la plata, Buenos Aires
         </p>
       </div>
 

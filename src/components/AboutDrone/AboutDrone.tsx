@@ -60,7 +60,7 @@ export function AboutDrone() {
         <ScrollAnimation animateIn='fadeInRight' delay={0.6 * 1000}>
           <img src={comboDrone} alt='comboPhoto' />
           <img src={frontalDrone} alt='drone frontal' />
-          {/* <iframe width="789" height="444" src="https://www.youtube.com/embed/6K-2ypjl5s8" title="ARGENTINA CAMPEON DEL MUNDO - Plaza Moreno Ciudad de la Plata" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe> */}
+
         </ScrollAnimation>
       </div>
     </Container>
